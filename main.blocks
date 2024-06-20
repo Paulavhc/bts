@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id=".aEr6(cWZN.7sfHLx1S7" x="0" y="0"><statement name="HANDLER"><block type="controls_repeat_ext" id="WPzo-Agp:ViS_6E)q!0p"><value name="TIMES"><shadow type="math_whole_number" id=".=0WY2I~%Idn6w*-%iM|"><field name="NUM">6</field></shadow></value><statement name="DO"><block type="music_playable_play" id="2BiB{Oac@Arpm3v!/5]2"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_string_playable"><value name="melody"><shadow type="melody_editor"><field name="melody">"B A G A G F A C5 "</field></shadow></value><value name="bpm"><shadow type="math_number_minmax"><mutation min="40" max="500" label="Bpm" precision="0"></mutation><field name="SLIDER">120</field></shadow></value></shadow><block type="music_string_playable" id="O_!)NP;:DYdG$/DXvDsA"><value name="melody"><shadow type="melody_editor" id="|c.fF.B!Fg:05=%3HjT{"><field name="melody">"B A G A G F A C5 "</field></shadow></value><value name="bpm"><shadow type="math_number_minmax" id=".C:G~*5X#F%;hbgq72u?"><mutation min="40" max="500" label="Bpm" precision="0"></mutation><field name="SLIDER">120</field></shadow></value></block></value><next><block type="device_show_leds" id=")I._1Wh!a,gIK562}ZwP"><field name="LEDS">`
+        # # . . . 
+        # . # . . 
+        # # # . . 
+        # . # . . 
+        # # . . .
+        `</field><next><block type="device_show_leds" id=".DC2kZbRJzrHnD6Mm7hl"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . . # . . 
+        . . # . . 
+        . . # . .
+        `</field><next><block type="device_show_leds" id="g_H5#9|KT3YbJ6%WXEII"><field name="LEDS">`
+        . # # # . 
+        # . . . . 
+        . # # . . 
+        . . . # . 
+        # # # . .
+        `</field><next><block type="basic_show_icon" id="wOIOsPV/A6bm:`EQ6ytU"><field name="i">IconNames.Heart</field></block></next></block></next></block></next></block></next></block></statement></block></statement></block></xml>
